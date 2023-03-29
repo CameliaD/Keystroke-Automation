@@ -1,4 +1,16 @@
-﻿Add-Type -AssemblyName PresentationFramework
+<#
+.SYNOPSIS
+        Keystroke Automation prevents your computer from going idle during periods of inactivity by automating keystrokes.
+
+.DESCRIPTION
+        Keystroke Automation is a PowerShell script that runs by automatically pressing a key every 30 seconds to keep your computer awake. It is designed to prevent your computer from going idle during periods of inactivity, allowing you to use applications that go idle after a period of inactivity or avoid interruptions to time-consuming tasks due to sleep mode. 
+
+.NOTES
+    Author: Camelia Bobaru
+    Date: 19.02.2023
+#>
+
+Add-Type -AssemblyName PresentationFramework
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing") 
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") 
 
