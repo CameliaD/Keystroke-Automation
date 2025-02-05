@@ -149,7 +149,9 @@ $global:timer.add_tick({
     [void][System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
     $Key = '{'+$TBkey.Text+'}'
     [System.Windows.Forms.SendKeys]::SendWait($Key)
-    $LBWatch.Content = "&#x1F4A5;"
+    $bytes = [byte[]](0xF0, 0x9F, 0x92, 0xA5)
+    $emoji = [System.Text.Encoding]::UTF8.GetString($bytes)
+    $LBWatch.Content = "$emoji"
 
     $uri = new-object system.uri("$configFilesLocationOnThisPC\Key Press.jpg")
     $imagesource = new-object System.Windows.Media.Imaging.BitmapImage $uri 
