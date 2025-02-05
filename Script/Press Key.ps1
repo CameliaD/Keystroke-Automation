@@ -104,7 +104,7 @@ $configFilesLocationOnThisPC = "$scriptLocationOnThisPC\Config"
             </TextBox.Background>
         </TextBox>
         <Button Name="btnLeft" Content="&#x25C0;" HorizontalAlignment="Left" Height="35" Margin="170,123,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="5.286,-3.571" Background="{x:Null}" BorderBrush="White" Cursor="Hand" BorderThickness="0" Opacity="0.995" FontSize="18" Foreground="#FF102D4F"/>
-        <Button Name="btnRight" Content=Content="&#x25B6;" HorizontalAlignment="Right" Height="35" Margin="0,123,170,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-2.714,-4.429" Background="{x:Null}" BorderBrush="White" Cursor="Hand" BorderThickness="0" FontSize="18" Foreground="#FF102D4F"/>
+        <Button Name="btnRight" Content="&#x25B6;" HorizontalAlignment="Right" Height="35" Margin="0,123,170,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-2.714,-4.429" Background="{x:Null}" BorderBrush="White" Cursor="Hand" BorderThickness="0" FontSize="18" Foreground="#FF102D4F"/>
         <Label Name="LBWatch" Content="Choose the key and press START!" HorizontalAlignment="Center" Height="50" Margin="100,205,100,0" VerticalAlignment="Top" Width="500"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Black" FontSize="14"/>
     </Grid>
 </Window>
